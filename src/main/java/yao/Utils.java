@@ -11,7 +11,7 @@ import javax.crypto.KeyGenerator;
 import javax.crypto.SecretKey;
 import javax.crypto.spec.SecretKeySpec;
 
-import main.java.yao.gate.Gate;
+import yao.gate.Gate;
 
 public class Utils 
 {

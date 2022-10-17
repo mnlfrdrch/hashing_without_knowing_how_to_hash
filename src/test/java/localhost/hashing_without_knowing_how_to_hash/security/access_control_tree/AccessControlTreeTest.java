@@ -1,4 +1,4 @@
-package test.java.localhost.hashing_without_knowing_how_to_hash.security.access_control_tree;
+package localhost.hashing_without_knowing_how_to_hash.security.access_control_tree;
 
 import mockdata.WireMockData;
 import org.junit.jupiter.api.BeforeEach;

@@ -1,4 +1,4 @@
-package test.java.localhost.hashing_without_knowing_how_to_hash.dao;
+package localhost.hashing_without_knowing_how_to_hash.dao;
 
 import de.uni_leipzig.dbs.pprl.primat.common.extraction.FeatureExtractor;
 import de.uni_leipzig.dbs.pprl.primat.common.extraction.qgram.BigramExtractor;
@@ -134,7 +134,7 @@ class PRIMATParserTest {
     @Test
     public void testCollectRecordsShouldBeAbleToExtractThe115BigramsFromGivenFile(){
         //given
-        parser=new PRIMATParser(ProjectPaths.RESOURCES_PATH+"/dataset.csv", ModelMetaData.RECORD_SCHEMA_CONFIGURATION,2,true);
+        parser=new PRIMATParser(ProjectPaths.RESOURCES_PATH+ "/dataset.csv", ModelMetaData.RECORD_SCHEMA_CONFIGURATION,2,true);
         parser.loadRecords();
         int expectedNumBigrams=115;
 
@@ -148,7 +148,7 @@ class PRIMATParserTest {
     @Test
     public void testAlternativeConstructorShouldAlsoBeAbleToExtractTheQGrams(){
         //given
-        File file=new File(ProjectPaths.RESOURCES_PATH+"/dataset.csv");
+        File file=new File(ProjectPaths.RESOURCES_PATH+ "/dataset.csv");
 
         //when
         parser=new PRIMATParser(file,ModelMetaData.RECORD_SCHEMA_CONFIGURATION,2,true);

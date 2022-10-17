@@ -1,4 +1,4 @@
-package test.java.mockdata;
+package mockdata;
 
 import localhost.hashing_without_knowing_how_to_hash.dto.ot.EncryptedSecretPairDto;
 import localhost.hashing_without_knowing_how_to_hash.dto.ot.PublicKeyRSADto;

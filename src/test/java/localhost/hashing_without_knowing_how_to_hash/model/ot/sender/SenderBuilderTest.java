@@ -1,4 +1,4 @@
-package test.java.localhost.hashing_without_knowing_how_to_hash.model.ot.sender;
+package localhost.hashing_without_knowing_how_to_hash.model.ot.sender;
 
 import mockdata.WireMockData;
 import org.junit.jupiter.api.Test;

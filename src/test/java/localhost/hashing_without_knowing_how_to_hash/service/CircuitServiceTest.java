@@ -1,4 +1,4 @@
-package test.java.localhost.hashing_without_knowing_how_to_hash.service;
+package localhost.hashing_without_knowing_how_to_hash.service;
 
 import localhost.hashing_without_knowing_how_to_hash.cache.FormulaCache;
 import localhost.hashing_without_knowing_how_to_hash.constants.ReservedCharacters;

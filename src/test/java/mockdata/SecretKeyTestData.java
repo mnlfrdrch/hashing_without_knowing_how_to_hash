@@ -1,4 +1,4 @@
-package test.java.mockdata;
+package mockdata;
 
 import localhost.hashing_without_knowing_how_to_hash.dto.party.HashFunctionSecretKeyDto;
 import localhost.hashing_without_knowing_how_to_hash.model.hash_function_share.HashingAlgorithmType;

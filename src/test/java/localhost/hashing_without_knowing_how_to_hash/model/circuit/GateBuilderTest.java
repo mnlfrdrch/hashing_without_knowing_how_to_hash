@@ -1,4 +1,4 @@
-package test.java.localhost.hashing_without_knowing_how_to_hash.model.circuit;
+package localhost.hashing_without_knowing_how_to_hash.model.circuit;
 
 import localhost.hashing_without_knowing_how_to_hash.constants.GateTypeIds;
 import org.junit.jupiter.api.BeforeEach;

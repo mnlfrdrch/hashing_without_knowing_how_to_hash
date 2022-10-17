@@ -1,4 +1,4 @@
-package test.java.localhost.hashing_without_knowing_how_to_hash;
+package localhost.hashing_without_knowing_how_to_hash;
 
 import localhost.hashing_without_knowing_how_to_hash.cache.FormulaCache;
 import localhost.hashing_without_knowing_how_to_hash.controller.CircuitController;

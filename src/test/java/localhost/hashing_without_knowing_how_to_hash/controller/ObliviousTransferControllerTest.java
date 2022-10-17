@@ -1,4 +1,4 @@
-package test.java.localhost.hashing_without_knowing_how_to_hash.controller;
+package localhost.hashing_without_knowing_how_to_hash.controller;
 
 import localhost.hashing_without_knowing_how_to_hash.cache.SenderCache;
 import localhost.hashing_without_knowing_how_to_hash.cache.WireCache;

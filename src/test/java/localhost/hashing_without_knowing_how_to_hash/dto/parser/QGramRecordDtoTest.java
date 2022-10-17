@@ -1,4 +1,4 @@
-package test.java.localhost.hashing_without_knowing_how_to_hash.dto.parser;
+package localhost.hashing_without_knowing_how_to_hash.dto.parser;
 
 import org.junit.jupiter.api.Test;
 

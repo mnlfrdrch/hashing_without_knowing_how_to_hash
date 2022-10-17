@@ -1,4 +1,4 @@
-package test.java.mockdata;
+package mockdata;
 
 import lombok.experimental.UtilityClass;
 import org.mockito.Mockito;

@@ -1,4 +1,4 @@
-package test.java.mockdata;
+package mockdata;
 
 import localhost.hashing_without_knowing_how_to_hash.dto.party.HostDto;
 import lombok.experimental.UtilityClass;
@@ -9,7 +9,7 @@ import static org.mockito.Mockito.when;
 @UtilityClass
 public class HostDtoMockData {
 
-    public final String HOST="localhost";
+    public final String HOST= "localhost";
     public final String PORT="8080";
 
     public HostDto mockHost(){

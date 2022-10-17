@@ -1,4 +1,4 @@
-package test.java.localhost.hashing_without_knowing_how_to_hash.model;
+package localhost.hashing_without_knowing_how_to_hash.model;
 
 import localhost.hashing_without_knowing_how_to_hash.constants.CharacterSets;
 import localhost.hashing_without_knowing_how_to_hash.dto.FixedLengthBitSet;

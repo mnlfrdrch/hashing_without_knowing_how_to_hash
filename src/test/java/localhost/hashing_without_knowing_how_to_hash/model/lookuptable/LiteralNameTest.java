@@ -1,4 +1,4 @@
-package test.java.localhost.hashing_without_knowing_how_to_hash.model.lookuptable;
+package localhost.hashing_without_knowing_how_to_hash.model.lookuptable;
 
 import org.junit.jupiter.api.Test;
 

@@ -1,4 +1,4 @@
-package test.java.localhost.hashing_without_knowing_how_to_hash.dto.ot;
+package localhost.hashing_without_knowing_how_to_hash.dto.ot;
 
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;

@@ -1,4 +1,4 @@
-package test.java.localhost.hashing_without_knowing_how_to_hash.controller;
+package localhost.hashing_without_knowing_how_to_hash.controller;
 
 import localhost.hashing_without_knowing_how_to_hash.cache.FormulaCache;
 import localhost.hashing_without_knowing_how_to_hash.constants.ControllerPaths;
@@ -27,7 +27,7 @@ class CircuitControllerTest {
     private int PORT;
 
     private String PROTOCOL="http";
-    private String HOST="localhost";
+    private String HOST= "localhost";
 
 
     @Autowired

@@ -1,4 +1,4 @@
-package test.java.mockdata;
+package mockdata;
 
 import localhost.hashing_without_knowing_how_to_hash.constants.ReservedCharacters;
 import lombok.experimental.UtilityClass;
@@ -8,7 +8,7 @@ public class CommandLineTestData {
 
     public final String OWN_PORT="8081";
     public final String SECRET_KEY= SecretKeyTestData.getKeyHex();
-    public final String FILE="src/main/resources/existing_file_for_ArgumentsInterpreterTest.csv";
+    public final String FILE="src/test/resources/existing_file_for_ArgumentsInterpreterTest.csv";
     public final String SECOND_HOST_NAME="192.168.1.2";
     public final String SECOND_HOST_PORT="8082";
     public final String SECOND_HOST =SECOND_HOST_NAME+ ReservedCharacters.ARGUMENTS_HOSTNAME_PORT_SECRETKEY_SEPARATOR+SECOND_HOST_PORT;

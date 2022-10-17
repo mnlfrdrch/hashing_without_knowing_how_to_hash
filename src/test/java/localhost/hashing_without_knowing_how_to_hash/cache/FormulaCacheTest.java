@@ -1,4 +1,4 @@
-package test.java.localhost.hashing_without_knowing_how_to_hash.cache;
+package localhost.hashing_without_knowing_how_to_hash.cache;
 
 import localhost.hashing_without_knowing_how_to_hash.dto.formula.FormulaContainerDto;
 import localhost.hashing_without_knowing_how_to_hash.model.lookuptable.HashTable;

@@ -1,4 +1,4 @@
-package test.java.localhost.hashing_without_knowing_how_to_hash.model.ot.receiver;
+package localhost.hashing_without_knowing_how_to_hash.model.ot.receiver;
 
 import localhost.hashing_without_knowing_how_to_hash.cache.FormulaCache;
 import localhost.hashing_without_knowing_how_to_hash.constants.ControllerPaths;

@@ -1,4 +1,4 @@
-package test.java.localhost.hashing_without_knowing_how_to_hash.model.ot;
+package localhost.hashing_without_knowing_how_to_hash.model.ot;
 
 import mockdata.WireMockData;
 import yao.gate.Wire;
