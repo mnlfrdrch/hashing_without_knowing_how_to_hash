@@ -87,7 +87,7 @@ public class Utils
 	public static KeyPair genRSAkeypair() throws Exception
 	{
 		KeyPairGenerator kpg = KeyPairGenerator.getInstance("RSA");
-		kpg.initialize(128);
+		kpg.initialize(1024);
 		KeyPair kp = kpg.genKeyPair();
 //		Key publicKey = kp.getPublic();
 //		Key privateKey = kp.getPrivate();
