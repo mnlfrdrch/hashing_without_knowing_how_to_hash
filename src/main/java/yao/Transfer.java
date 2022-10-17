@@ -1,4 +1,4 @@
-package main.java.yao;
+package yao;
 
 import java.math.BigInteger;
 import java.security.KeyFactory;

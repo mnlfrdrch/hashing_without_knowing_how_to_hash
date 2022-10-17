@@ -1,4 +1,4 @@
-package main.java.yao.gate;
+package yao.gate;
 
 public class NAndGate extends Gate {
     public NAndGate(Wire i1, Wire i2, Wire r) throws Exception

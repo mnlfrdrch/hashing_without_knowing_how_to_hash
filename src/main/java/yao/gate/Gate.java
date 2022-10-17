@@ -1,8 +1,8 @@
-package main.java.yao.gate;
+package yao.gate;
 
 import java.util.Random;
 
-import main.java.yao.Utils;
+import yao.Utils;
 
 public class Gate 
 {

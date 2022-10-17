@@ -1,4 +1,4 @@
-package main.java.yao.gate;
+package yao.gate;
 
 import javax.crypto.KeyGenerator;
 import javax.crypto.SecretKey;

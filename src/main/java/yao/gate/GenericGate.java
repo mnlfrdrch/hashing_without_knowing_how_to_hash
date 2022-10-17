@@ -1,4 +1,4 @@
-package main.java.yao.gate;
+package yao.gate;
 
 
 public class GenericGate extends Gate 
