@@ -9,10 +9,9 @@ import org.springframework.web.bind.annotation.*;
 
 /**
  * Enables the oblivious transfer of wire labels to circuits, that have been transferred in advance
- * Implements a oblivious transfer variant using RSA
+ * Implements an oblivious transfer variant using RSA
  * REST is used for the data transmitted
  * Class contains pairs of methods, one for sending and one for receiving
- * TODO: change addressing of sender from (int circuitsContanerHash, int circuitHash, String wireId) to WireAddressDto
  */
 @RestController
 @RequestMapping(path= ControllerPaths.OBLIVIOUS_TRANSFER)
@@ -68,7 +67,7 @@ public class ObliviousTransferController {
      * @param circuitContainerHash part of sender address
      * @param circuitHash part of sender address
      * @param wireId part of sender address
-     * @return
+     * @return the encrypted secrets
      */
     @RequestMapping(value = ControllerPaths.ENCRYPTED_SECRET_PAIR, method = RequestMethod.GET)
     public @ResponseBody EncryptedSecretPairDto getEncryptedSecrets(@RequestParam(ControllerParameters.CIRCUIT_CONTAINER_HASH) int circuitContainerHash, @RequestParam(ControllerParameters.CIRCUIT_HASH) int circuitHash, @RequestParam(ControllerParameters.WIRE_ID) String wireId){
