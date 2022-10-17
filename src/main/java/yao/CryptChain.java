@@ -1,10 +1,10 @@
-package yao;
+package main.java.yao;
 
 import java.security.KeyPair;
 
-import yao.gate.Gate;
-import yao.gate.Wire;
-import yao.gate.XorGate;
+import main.java.yao.gate.Gate;
+import main.java.yao.gate.Wire;
+import main.java.yao.gate.XorGate;
 
 public class CryptChain 
 {

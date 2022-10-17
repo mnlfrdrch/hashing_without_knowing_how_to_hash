@@ -2,7 +2,7 @@ package yao4.gate;
 
 import java.util.Random;
 
-import yao.Utils;
+import main.java.yao.Utils;
 
 public class Gate 
 {

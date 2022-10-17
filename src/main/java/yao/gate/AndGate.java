@@ -1,4 +1,4 @@
-package yao.gate;
+package main.java.yao.gate;
 
 
 public class AndGate extends Gate

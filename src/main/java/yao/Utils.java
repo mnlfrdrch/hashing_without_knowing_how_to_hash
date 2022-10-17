@@ -1,4 +1,4 @@
-package yao;
+package main.java.yao;
 
 import java.security.KeyPair;
 import java.security.KeyPairGenerator;
@@ -11,7 +11,7 @@ import javax.crypto.KeyGenerator;
 import javax.crypto.SecretKey;
 import javax.crypto.spec.SecretKeySpec;
 
-import yao.gate.Gate;
+import main.java.yao.gate.Gate;
 
 public class Utils 
 {
